@@ -1,0 +1,38 @@
+html body {
+  font-family: 'Open Sans', sans-serif;
+  background: none;  
+}
+
+.container {
+	
+}
+.desktop {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar {
+	height: 100px;
+	background: #373c3f;	
+}
+.mainscreen {
+	height: 540px;
+	background: #0ca0b6;
+}
+.description {
+	height: 560px;
+	background: #ebebeb;
+}
+.row_1 {
+	height: 200px;
+	background: #27212c;
+}
+.row_2 {
+	height: 300px;
+	background: #5b0fa1;
+}
+.row_3 {
+	height: 50px;	
+}
+.column_1
+.column_2
