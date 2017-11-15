@@ -34,5 +34,12 @@ html body {
 .row_3 {
 	height: 50px;	
 }
-.column_1
-.column_2
+.column {
+	width: 505px;
+  display: inline-block;
+}
+.column_1 {
+	width: 505px;
+  position: absolute;
+  display: inline-block;
+}
