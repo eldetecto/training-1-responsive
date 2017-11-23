@@ -1,10 +1,11 @@
 html body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+	color: #fff;
   background: none;  
 }
 
-.container {
-	
+a {
+	text-decoration: none;
 }
 .desktop {
 	max-width: 1024px;
@@ -12,12 +13,24 @@ html body {
 	margin-right: auto;
 }
 .navbar {
+	margin: -16px auto;
 	height: 100px;
 	background: #373c3f;	
+}
+div.navbar a {
+  font-weight: bold;
+  font-size: 15px;
 }
 .mainscreen {
 	height: 540px;
 	background: #0ca0b6;
+}
+div.mainscreen p {
+	width: 720px;
+	padding-left: 90px;
+}
+div.mainscreen span {
+	text-align: right;
 }
 .description {
 	height: 560px;
@@ -27,19 +40,58 @@ html body {
 	height: 200px;
 	background: #27212c;
 }
+.rwc_1 {
+	width: 790px;
+	height: 200px;
+	display: inline-block;
+}
+div.rwc_1 p {
+	padding-top: 50px;
+  font-weight: bold;
+  font-size: 30px;	
+	color: #9282a0;
+}
+.rwc_2 {
+	width: 220px;
+  height: 200px;
+	display: inline-block;
+	position: absolute;
+	text-align: centr;
+	background: #bc3183;
+}
+div.rwc_2 p {
+	  padding: 5px 95px;
+    font-weight: bold;
+    font-size: 60px;
+}
 .row_2 {
-	height: 300px;
+	height: 294px;
 	background: #5b0fa1;
+}
+.block_1 {
+	width: 370px;
+	height: 294px;
+	display: inline-block;
+}
+.block_2 {
+	width: 321px;
+	height: 294px;
+	display: inline-block;
+	margin: 0px -2px;
 }
 .row_3 {
 	height: 50px;	
 }
 .column {
 	width: 505px;
-  display: inline-block;
+	display: inline-block;
 }
 .column_1 {
 	width: 505px;
-  position: absolute;
-  display: inline-block;
+	position: absolute;
+	display: inline-block;
+}
+div.navbar li {
+	display: inline-block;
+	padding: 40px 0px 0px 20px;
 }
