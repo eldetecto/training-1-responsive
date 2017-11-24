@@ -6,6 +6,16 @@ html body {
 
 a {
 	text-decoration: none;
+	color: #fff;
+}
+p {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.arrow a {
+	font-family: 'Quicksand', sans-serif;
 }
 .desktop {
 	max-width: 1024px;
@@ -20,6 +30,11 @@ a {
 div.navbar a {
   font-weight: bold;
   font-size: 15px;
+	color: #fff;
+}
+div.navbar li {
+	display: inline-block;
+	padding: 30px 0px 0px 20px;
 }
 .mainscreen {
 	height: 540px;
@@ -28,9 +43,16 @@ div.navbar a {
 div.mainscreen p {
 	width: 720px;
 	padding-left: 90px;
+	font-weight: bold;
+  font-size: 63px;
 }
 div.mainscreen span {
-	text-align: right;
+	margin-left: 363px;
+}
+div.mainscreen span.first {
+	margin-left: 0px;
+	font-size: 30px;
+	color: #a8d5df;
 }
 .description {
 	height: 560px;
@@ -41,15 +63,17 @@ div.mainscreen span {
 	background: #27212c;
 }
 .rwc_1 {
-	width: 790px;
+	width: 805px;
 	height: 200px;
 	display: inline-block;
 }
 div.rwc_1 p {
-	padding-top: 50px;
+	padding-top: 80px;
+	padding-left: 90px;
   font-weight: bold;
   font-size: 30px;	
 	color: #9282a0;
+	
 }
 .rwc_2 {
 	width: 220px;
@@ -60,18 +84,23 @@ div.rwc_1 p {
 	background: #bc3183;
 }
 div.rwc_2 p {
-	  padding: 5px 95px;
-    font-weight: bold;
-    font-size: 60px;
+	padding: 60px 100px;
+  font-weight: bold;
+  font-size: 60px;
 }
 .row_2 {
 	height: 294px;
 	background: #5b0fa1;
 }
 .block_1 {
-	width: 370px;
-	height: 294px;
-	display: inline-block;
+	width: 211px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 100px 0px 0px 170px;
+}
+div.block_1 span.arrow {
+	font-weight: bold;
+  font-size: 63px;
 }
 .block_2 {
 	width: 321px;
@@ -91,7 +120,4 @@ div.rwc_2 p {
 	position: absolute;
 	display: inline-block;
 }
-div.navbar li {
-	display: inline-block;
-	padding: 40px 0px 0px 20px;
-}
+
