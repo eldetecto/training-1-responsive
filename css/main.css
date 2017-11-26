@@ -8,6 +8,9 @@ a {
 	text-decoration: none;
 	color: #fff;
 }
+a:hover {
+	color: #9282a0;
+}
 p {
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
@@ -31,6 +34,9 @@ div.navbar a {
   font-weight: bold;
   font-size: 15px;
 	color: #fff;
+}
+div.navbar a:hover {
+	color: #9282a0;
 }
 div.navbar li {
 	display: inline-block;
@@ -58,12 +64,15 @@ div.mainscreen span.first {
 	height: 560px;
 	background: #ebebeb;
 }
+div.description div.desktop {
+	padding-left: 90px;
+}
 .row_1 {
 	height: 200px;
 	background: #27212c;
 }
 .rwc_1 {
-	width: 805px;
+	width: 788px;
 	height: 200px;
 	display: inline-block;
 }
@@ -93,7 +102,7 @@ div.rwc_2 p {
 	background: #5b0fa1;
 }
 .block_1 {
-	width: 211px;
+	width: 194px;
   display: inline-block;
   vertical-align: top;
   padding: 100px 0px 0px 170px;
@@ -109,11 +118,22 @@ div.block_1 span.arrow {
 	margin: 0px -2px;
 }
 .row_3 {
-	height: 50px;	
+	height: 55px;
+  padding-top: 65px;
+}
+div.row_3 span {
+	font-size: 20px;
+  font-weight: bold;
+  color: #088ca5;
 }
 .column {
-	width: 505px;
-	display: inline-block;
+	width: 400px;
+  padding-right: 50px;
+  display: inline-block;
+  font-size: 14px;
+  color: #515151;
+  font-weight: bold;
+  line-height: 26px;
 }
 .column_1 {
 	width: 505px;
